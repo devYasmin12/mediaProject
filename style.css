@@ -25,14 +25,14 @@ body #threeDiv {
   align-items: center;
   justify-content: space-between;
 }
-body #threeDiv #blockDiv {
+body #threeDiv .blockDiv {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0 30px;
 }
-body #threeDiv #blockDiv .iconDiv {
+body #threeDiv .blockDiv .iconDiv {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,7 +41,7 @@ body #threeDiv #blockDiv .iconDiv {
   padding: 20px 50px;
   margin: 20px 0;
 }
-body #threeDiv #blockDiv .iconDiv i {
+body #threeDiv .blockDiv .iconDiv i {
   font-size: 40px;
 }
 body p {
